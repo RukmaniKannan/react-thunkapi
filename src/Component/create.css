@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+ .Login_page{
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px,
+     rgba(17, 17, 26, 0.1) 0px 16px 56px;
+     border-radius: 12px;
+    background-color: white;
+}
+.loginpage {
+    justify-content: center;
+}
+.Container .loginpage .label{
+    margin-right: 150px;
+    font-weight: bold;  
+  }
+.loginpage {
+    background-image: url('../../src/Component/assets/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.webp');
+    background-size: cover; /* Makes the image cover the whole container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Sets the height of the container */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .form{
+    font-size: small;
+  }
+  .logo{
+    width: 40px;
+  }
+  
